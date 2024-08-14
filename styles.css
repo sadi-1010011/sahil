@@ -1,0 +1,136 @@
+/* styles for sahil project */
+
+
+body { background-color: wheat; }
+
+h4 { margin-bottom: 2rem !important; }
+
+.padd { padding-top: 50px;padding-bottom: 50px; }
+
+.t-uc {
+	text-transform: uppercase;
+}
+
+#myheader {
+	position: sticky;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	background-color: white;
+	padding: 14px 0px;
+	z-index: 99;
+}
+
+#mybrand {
+	text-transform: capitalize;
+	color: darkblue;
+	font-size: 2em;
+	font-weight: 700;
+	margin-bottom: 0.6rem !important;
+}
+
+.mynavbar {
+	height: 100%;
+    width: 100%;
+}
+
+.mynavbar > ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.mynavbar > ul li {
+	display: inline;
+}
+
+.mynavbar > ul li a {
+	font-size: 1.16rem;
+	padding: 0 18px;
+	text-transform: capitalize;
+}
+
+#banner-section {
+	color: black;
+	background-image: url(banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 25vh 0;
+}
+
+.mycard {
+	border: 2px solid white;
+	background-color: rgb(230, 235, 215);
+	padding: 20px 10px;
+    border-radius: 12px;
+}
+
+.mybtn {
+	background-color: orange;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.mybtnnobg {
+	background-color: white;
+	color: orange;
+}
+
+/*.mybtnnobg:hover {
+	background-color: orange;
+	color: white;
+}
+*/
+
+.mybtn:hover { color: orange; background-color: white; }
+
+#devs-section {
+	background-color: white;
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+}
+
+.devs-card {
+	max-width: 200px;
+	height: 90px;
+	border-right: 24px solid orange;
+	transition: 0.6s;
+}
+
+.devs-card:hover { border-right: 100px solid orange; }
+
+#events-section {
+	background-color: orange;
+	color: white;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
+.date-card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	width: 50px;
+	height: 50px;
+	color: white;
+	background-color: orange;
+}
+
+#myfooter {
+	padding: 7vh 0;
+}
+
+#shareto {
+	margin: auto;
+	width: 40%;
+}
+
+
+@media screen and (max-width: 764px) {
+	.mycard { margin: 20px 0px; }
+	#myheader { position: relative; }
+}
+
