@@ -16,6 +16,9 @@
 			top: 0;
 			margin: 12px;
 			padding: 0 5rem;
+			object-fit: contain;
+			padding: 0;
+			border-radius: 2rem;
 		}
 
 
@@ -36,24 +39,24 @@ const scatterimgs = document.getElementById('scatteredImages');
 <header id="myheader">
 	<div class="container-fluid">
 		<div class="row align-items-center">
-			<div class="col-md-2 col-lg-2 col-sm-12 text-center d-flex align-items-center">
+			<div class="col-md-2 col-lg-2 col-sm-2 text-center d-flex align-items-center">
 				<p id="mybrand" class="pl-5 text-success font-weight-bolder">RouteX</p>
 				<img class="p-2" src="icon.png" width="50" height="50" alt="logo" />
 			</div>
-			<div class="col-md-8 col-lg-8 col-sm-12">
+			<div class="col-md-6 col-lg-8 col-sm-6">
 				<nav class="navbar text-center mynavbar font-weight-bold d-flex align-items-center">
 					<ul class="m-auto">
-						<li><a href="">home</a></li>
+						<li><a href="">home &gt;</a></li>
 						<li><a>about us</a></li>
-						<li><a>story</a></li>
-						<li><a>visa</a></li>
-						<li><a>blog</a></li>
-						<li><a>page</a></li>
+						<li><a>story&gt;</a></li>
+						<li><a>visa&gt;</a></li>
+						<li><a>blog&gt;</a></li>
+						<li><a>page&gt;</a></li>
 						<li><a>about</a></li>
 					</ul>
 				</nav>
 			</div>
-			<div class="col-md-2 col-lg-2 col-sm-12 text-center">
+			<div class="col-md-2 col-lg-2 col-sm-2 text-center">
 				<span>Need help ?</span>
 				<h3 class="text-bold">(307)555-0133</h3>
 			</div>
@@ -71,7 +74,7 @@ const scatterimgs = document.getElementById('scatteredImages');
 		<p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual  <br />form of a typeface without relying on meaningful content</p>
 		<br/>
 		<br/>
-		<button class="btn btn-success" style="border-radius: 20px;">learn more -></button>
+		<button class="btn px-4 py-3" style="border-radius: 20px; color: white; background-color: yellowgreen; font-weight: bold;">learn more -></button>
 	</div>
 </section>
 
@@ -82,12 +85,12 @@ const scatterimgs = document.getElementById('scatteredImages');
 		<div class="row pt-5">
 			<div class="col-6 pl-5">
 				<div id="scatteredImages">
-					<div style="position: absolute; bottom:0; right: 1rem; background-color: yellowgreen; border-radius: 12px; padding: 2rem 1cm;">
-						<span style="border-radius: 12px; font-size: 18px;">10+ years <br/> of experience</span>
+					<div style="position: absolute; bottom:0; left: 7rem; background-color: yellowgreen; border-radius: 12px; padding: 2rem 1cm;">
+						<span style="border-radius: 12px; font-size: 18px; font-weight: bold;">10+ years <br/> of experience</span>
 					</div>
-					<img id="scatter2" style="top: -1em; left: 0px;" src="i3.png" alt="scatter images" />
-					<img id="scatter3" style="left: 7cm; width: 60%;" src="i0.jpg" alt="scatter images" />
-					<img id="scatter4" style="top: 5cm; width: 70%;" src="i1.jpg" alt="scatter images" />
+					<img id="scatter2" style="top: -4em; left: 8rem; width: 30%;" src="i3.png" alt="scatter images" />
+					<img id="scatter3" style="right: 3rem; width: 40%;" src="i0.jpg" alt="scatter images" />
+					<img id="scatter4" style="top: 6.5cm; right: 6rem; width: 50%;" src="i1.jpg" alt="scatter images" />
 				</div>
 			</div>
 			<div class="col-6">
@@ -123,7 +126,7 @@ const scatterimgs = document.getElementById('scatteredImages');
 						</div>
 						<br />
 						<br /> 
-						<button class="btn border btn-rounded btn-success" style="border-radius: 20px;">Read More -></button>
+						<button class="btn px-4 py-3 ml-2" style="border-radius: 20px; color: white; background-color: yellowgreen; font-weight: bold;">Read more -></button>
 					</div>
 				</div>
 			</div>

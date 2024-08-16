@@ -134,3 +134,12 @@ h4 { margin-bottom: 2rem !important; }
 	#myheader { position: relative; }
 }
 
+@media screen and (max-width: 1170px) {
+	#scatteredImages > img {
+		width: 100%;
+		margin: 1rem;
+	}
+	.mynavbar > ul li a {
+		padding: 0 8px;
+	}
+}
